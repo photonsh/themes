@@ -1,9 +1,12 @@
 @charset "UTF-8";
 
 :global(.psh) {
-  margin: 0;
   background-color: #292a44;
   color: #f1eff7;
+}
+
+:global(.psh figure) {
+  margin: 0;
 }
 
 :global(.psh pre) {
@@ -367,4 +370,60 @@
 
 :global(.psh .gfm .link .punctuation.begin), :global(.psh .gfm .link .punctuation.end) {
   color: #6d6db5;
+}
+
+:global(.psh .tree-view:focus li.directory.selected.status-added > .list-item::after) {
+  background-color: #215f55;
+}
+
+:global(.psh .tree-view:focus li.directory.selected.status-added > .list-item .name),
+:global(.psh .tree-view:focus li.directory.selected.status-added > .list-item::before) {
+  color: #19e589;
+}
+
+:global(.psh .tree-view:focus li.list-nested-item > .list-item.selected.status-added::before),
+:global(.psh .tree-view:focus li:not(.list-nested-item).selected.status-added::before) {
+  background-color: #215f55;
+}
+
+:global(.psh .tree-view:focus li.list-nested-item > .list-item.selected.status-added .name),
+:global(.psh .tree-view:focus li:not(.list-nested-item).selected.status-added .name) {
+  color: #19e589;
+}
+
+:global(.psh .list-group li.list-nested-item.status-added:not(.selected) > .list-item),
+:global(.psh .list-group li.list-nested-item > .list-item.status-added),
+:global(.psh .list-group li:not(.list-nested-item):not(.tabBlender).status-added),
+:global(.psh .list-tree li.list-nested-item.status-added:not(.selected) > .list-item),
+:global(.psh .list-tree li.list-nested-item > .list-item.status-added),
+:global(.psh .list-tree li:not(.list-nested-item):not(.tabBlender).status-added) {
+  color: #19e589;
+}
+
+:global(.psh .tree-view:focus li.directory.selected.status-modified > .list-item::after) {
+  background-color: #963700;
+}
+
+:global(.psh .tree-view:focus li.directory.selected.status-modified > .list-item .name),
+:global(.psh .tree-view:focus li.directory.selected.status-modified > .list-item::before) {
+  color: #ffab35;
+}
+
+:global(.psh .tree-view:focus li.list-nested-item > .list-item.selected.status-modified::before),
+:global(.psh .tree-view:focus li:not(.list-nested-item).selected.status-modified::before) {
+  background-color: #963700;
+}
+
+:global(.psh .tree-view:focus li.list-nested-item > .list-item.selected.status-modified .name),
+:global(.psh .tree-view:focus li:not(.list-nested-item).selected.status-modified .name) {
+  color: #ffab35;
+}
+
+:global(.psh .list-group li.list-nested-item.status-modified:not(.selected) > .list-item),
+:global(.psh .list-group li.list-nested-item > .list-item.status-modified),
+:global(.psh .list-group li:not(.list-nested-item):not(.tabBlender).status-modified),
+:global(.psh .list-tree li.list-nested-item.status-modified:not(.selected) > .list-item),
+:global(.psh .list-tree li.list-nested-item > .list-item.status-modified),
+:global(.psh .list-tree li:not(.list-nested-item):not(.tabBlender).status-modified) {
+  color: #ffab35;
 }

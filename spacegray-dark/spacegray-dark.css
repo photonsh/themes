@@ -1,7 +1,10 @@
 .psh {
-  margin: 0;
   background-color: #242933;
   color: #b3b8c3;
+}
+
+.psh figure {
+  margin: 0;
 }
 
 .psh pre {

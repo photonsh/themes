@@ -1,7 +1,10 @@
 :global(.psh) {
-  margin: 0;
   background-color: #2c3643;
   color: #dbe6ec;
+}
+
+:global(.psh figure) {
+  margin: 0;
 }
 
 :global(.psh pre) {
