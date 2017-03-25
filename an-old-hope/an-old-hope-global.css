@@ -44,14 +44,6 @@
   padding: 18px;
 }
 
-:global(.psh code::-moz-selection), :global(.psh samp::-moz-selection) {
-  background-color: #2f3137;
-}
-
-:global(.psh code::selection), :global(.psh samp::selection) {
-  background-color: #2f3137;
-}
-
 :global(.psh .psh-line-numbers) {
   counter-reset: line;
 }

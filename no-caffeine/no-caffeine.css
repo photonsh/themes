@@ -44,14 +44,6 @@
   padding: 18px;
 }
 
-.psh code::-moz-selection, .psh samp::-moz-selection {
-  background-color: #fff;
-}
-
-.psh code::selection, .psh samp::selection {
-  background-color: #fff;
-}
-
 .psh .psh-line-numbers {
   counter-reset: line;
 }
@@ -251,7 +243,7 @@
 .psh .psh-commands::before {
   content: ">";
   padding-right: .8em;
-  color: #4c7c61;
+  color: #71ce9b;
 }
 
 .psh .source .control, .psh .text .control {

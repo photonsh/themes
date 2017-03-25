@@ -46,14 +46,6 @@
   padding: 18px;
 }
 
-:global(.psh code::-moz-selection), :global(.psh samp::-moz-selection) {
-  background-color: #4f528a;
-}
-
-:global(.psh code::selection), :global(.psh samp::selection) {
-  background-color: #4f528a;
-}
-
 :global(.psh .psh-line-numbers) {
   counter-reset: line;
 }
@@ -258,6 +250,7 @@
 
 :global(.psh .comment) {
   color: #6d6db5;
+  font-style: italic;
 }
 
 :global(.psh .string) {
@@ -372,12 +365,12 @@
   color: #6d6db5;
 }
 
-:global(.psh .tree-view:focus li.directory.selected.status-added > .list-item::after) {
+:global(.psh .tree-view:focus li.syntax-.directory.selected.status-added > .list-item::after) {
   background-color: #215f55;
 }
 
-:global(.psh .tree-view:focus li.directory.selected.status-added > .list-item .name),
-:global(.psh .tree-view:focus li.directory.selected.status-added > .list-item::before) {
+:global(.psh .tree-view:focus li.syntax-.directory.selected.status-added > .list-item .name),
+:global(.psh .tree-view:focus li.syntax-.directory.selected.status-added > .list-item::before) {
   color: #19e589;
 }
 

@@ -44,14 +44,6 @@
   padding: 18px;
 }
 
-.psh code::-moz-selection, .psh samp::-moz-selection {
-  background-color: #e0e0e0;
-}
-
-.psh code::selection, .psh samp::selection {
-  background-color: #e0e0e0;
-}
-
 .psh .psh-line-numbers {
   counter-reset: line;
 }

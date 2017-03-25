@@ -46,14 +46,6 @@
   padding: 18px;
 }
 
-.psh code::-moz-selection, .psh samp::-moz-selection {
-  background-color: #4f528a;
-}
-
-.psh code::selection, .psh samp::selection {
-  background-color: #4f528a;
-}
-
 .psh .psh-line-numbers {
   counter-reset: line;
 }
@@ -258,6 +250,7 @@
 
 .psh .comment {
   color: #6d6db5;
+  font-style: italic;
 }
 
 .psh .string {
@@ -372,12 +365,12 @@
   color: #6d6db5;
 }
 
-.psh .tree-view:focus li.directory.selected.status-added > .list-item::after {
+.psh .tree-view:focus li.syntax-.directory.selected.status-added > .list-item::after {
   background-color: #215f55;
 }
 
-.psh .tree-view:focus li.directory.selected.status-added > .list-item .name,
-.psh .tree-view:focus li.directory.selected.status-added > .list-item::before {
+.psh .tree-view:focus li.syntax-.directory.selected.status-added > .list-item .name,
+.psh .tree-view:focus li.syntax-.directory.selected.status-added > .list-item::before {
   color: #19e589;
 }
 
