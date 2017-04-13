@@ -1,6 +1,7 @@
 :global(.psh) {
   background-color: #2a2d37;
   color: #b9bed5;
+  margin: 1em 0;
 }
 
 :global(.psh figure) {
@@ -13,6 +14,24 @@
   display: flex;
   overflow: auto;
   margin: 0;
+  padding: 0;
+  border: none;
+}
+
+:global(.psh code), :global(.psh samp) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  padding: 18px;
+  background-color: #2a2d37;
+  color: #b9bed5;
   line-height: 18px;
   font-size: 13px;
   font-family: monospace;
@@ -28,20 +47,6 @@
   -webkit-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
-}
-
-:global(.psh code), :global(.psh samp) {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  padding: 18px;
 }
 
 :global(.psh .psh-line-numbers) {
@@ -82,8 +87,11 @@
 
 :global(.psh .psh-label) {
   background-color: #2a2d37;
-  text-align: right;
   height: 18px;
+  text-align: right;
+  line-height: 18px;
+  font-size: 11px;
+  font-family: sans-serif;
 }
 
 :global(.psh .psh-label-value) {
@@ -91,15 +99,11 @@
   display: inline-block;
   padding: 1px 5px;
   margin: 6px;
-  line-height: 18px;
   z-index: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  font-size: 11px;
-  font-family: serif;
-  font-family: initial;
   background-color: #3f424b;
   color: #b2b3b7;
 }
@@ -107,16 +111,22 @@
 :global(.psh .psh-caption) {
   padding: 12px;
   background-color: #3f424b;
-  font-weight: 700;
+  font-family: sans-serif;
+  font-weight: 500;
   font-size: 14px;
+  line-height: 24px;
+  word-break: break-all;
   color: #b2b3b7;
 }
 
 :global(.psh .psh-filename) {
   padding: 3px 12px;
   background-color: #3f424b;
-  font-weight: 700;
+  font-family: monospace;
+  font-weight: 500;
   font-size: 13px;
+  line-height: 24px;
+  word-break: break-all;
   text-align: center;
   color: #b2b3b7;
 }
@@ -125,7 +135,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-weight: 700;
+  line-height: 24px;
+  font-family: monospace;
+  font-weight: 500;
 }
 
 :global(.psh .psh-request .psh-request-method) {
@@ -172,6 +184,7 @@
   padding: 6px 12px;
   background-color: #4e515f;
   font-size: 13px;
+  word-break: break-all;
   color: #b2b3b7;
 }
 

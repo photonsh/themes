@@ -1,6 +1,7 @@
 .psh {
   background-color: #2e3440;
   color: #d8dee9;
+  margin: 1em 0;
 }
 
 .psh figure {
@@ -13,6 +14,24 @@
   display: flex;
   overflow: auto;
   margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.psh code, .psh samp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  padding: 18px;
+  background-color: #2e3440;
+  color: #d8dee9;
   line-height: 18px;
   font-size: 13px;
   font-family: monospace;
@@ -28,20 +47,6 @@
   -webkit-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
-}
-
-.psh code, .psh samp {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  padding: 18px;
 }
 
 .psh .psh-line-numbers {
@@ -82,8 +87,11 @@
 
 .psh .psh-label {
   background-color: #2e3440;
-  text-align: right;
   height: 18px;
+  text-align: right;
+  line-height: 18px;
+  font-size: 11px;
+  font-family: sans-serif;
 }
 
 .psh .psh-label-value {
@@ -91,15 +99,11 @@
   display: inline-block;
   padding: 1px 5px;
   margin: 6px;
-  line-height: 18px;
   z-index: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  font-size: 11px;
-  font-family: serif;
-  font-family: initial;
   background-color: #434853;
   color: #b4b6ba;
 }
@@ -107,16 +111,22 @@
 .psh .psh-caption {
   padding: 12px;
   background-color: #434853;
-  font-weight: 700;
+  font-family: sans-serif;
+  font-weight: 500;
   font-size: 14px;
+  line-height: 24px;
+  word-break: break-all;
   color: #b4b6ba;
 }
 
 .psh .psh-filename {
   padding: 3px 12px;
   background-color: #434853;
-  font-weight: 700;
+  font-family: monospace;
+  font-weight: 500;
   font-size: 13px;
+  line-height: 24px;
+  word-break: break-all;
   text-align: center;
   color: #b4b6ba;
 }
@@ -125,7 +135,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-weight: 700;
+  line-height: 24px;
+  font-family: monospace;
+  font-weight: 500;
 }
 
 .psh .psh-request .psh-request-method {
@@ -172,6 +184,7 @@
   padding: 6px 12px;
   background-color: #595f6a;
   font-size: 13px;
+  word-break: break-all;
   color: #b4b6ba;
 }
 
@@ -607,12 +620,29 @@
   font-style: italic;
 }
 
+.psh .source.cs .entity.name.interface.class {
+  font-weight: 700;
+}
+
 .psh .source.cs .meta.method.annotation {
   color: #d08770;
 }
 
 .psh .source.cs .meta.namespace.body {
   color: #8fbcbb;
+}
+
+.psh .source.cs .meta.directive.preprocessor {
+  color: #5e81ac;
+}
+
+.psh .source.cs .meta .generic.method.identifier {
+  color: #d8dee9;
+}
+
+.psh .source.cs .punctuation.section.class.begin,
+.psh .source.cs .punctuation.section.class.end {
+  color: #d8dee9;
 }
 
 .psh .source.css.less .meta.at-rule .punctuation.definition.keyword,
@@ -647,6 +677,19 @@
 .psh .source.css.sass .support.type.property-name,
 .psh .source.css.scss .support.type.property-name,
 .psh .source.css .support.type.property-name {
+  color: #8fbcbb;
+}
+
+.psh .source.diff .meta.header.from-file, .psh .source.diff .meta.range.context {
+  color: #8fbcbb;
+}
+
+.psh .source.diff .punctuation.definition.separator {
+  color: #81a1c1;
+}
+
+.psh .source.diff .punctuation.definition.from-file,
+.psh .source.diff .punctuation.definition.range {
   color: #8fbcbb;
 }
 
@@ -739,15 +782,28 @@
   color: #8fbcbb;
 }
 
+.psh .text.html.basic .constant.other.inline-data {
+  color: #d8dee9;
+  font-style: italic;
+}
+
+.psh .source.java .comment.block.javadoc .variable.parameter {
+  color: #88c0d0;
+}
+
 .psh .source.java .keyword.operator.instanceof {
   color: #81a1c1;
+}
+
+.psh .source.java .keyword.other.documentation.javadoc {
+  color: #8fbcbb;
 }
 
 .psh .source.java .punctuation.bracket.angle {
   color: #81a1c1;
 }
 
-.psh .source.java .storage.modifier.import {
+.psh .source.java .storage.modifier.import, .psh .source.java .storage.modifier.package {
   color: #8fbcbb;
 }
 
@@ -846,6 +902,18 @@
   color: #8fbcbb;
 }
 
+.psh .text.html.php.blade .keyword {
+  color: #d08770;
+}
+
+.psh .text.html.php.blade .keyword.operator {
+  color: #81a1c1;
+}
+
+.psh .text.html.php.blade .support.function.construct {
+  color: #5e81ac;
+}
+
 .psh .source.python .variable.parameter {
   color: #d8dee9;
 }
@@ -856,6 +924,35 @@
 
 .psh .source.python .meta.function-call.arguments {
   color: #d8dee9;
+}
+
+.psh .text.restructuredtext .entity.name.tag {
+  color: #81a1c1;
+}
+
+.psh .text.restructuredtext .markup.bold, .psh .text.restructuredtext .markup.italic {
+  color: #81a1c1;
+}
+
+.psh .text.restructuredtext .markup.other.command {
+  color: #8fbcbb;
+  font-style: italic;
+}
+
+.psh .text.restructuredtext .punctuation.definition {
+  color: #81a1c1;
+}
+
+.psh .text.restructuredtext .punctuation.definition.heading {
+  color: #81a1c1;
+}
+
+.psh .text.restructuredtext .punctuation.separator.line-block {
+  color: #81a1c1;
+}
+
+.psh .text.restructuredtext .string.other.link.title {
+  color: #88c0d0;
 }
 
 .psh .source.ruby .constant.other.symbol > .punctuation {
