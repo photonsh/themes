@@ -300,7 +300,7 @@
 }
 
 .psh .constant.character.escape {
-  color: #0fdebd;
+  color: #27dede;
 }
 
 .psh .constant.numeric {
@@ -308,7 +308,7 @@
 }
 
 .psh .constant.other.color {
-  color: #0fdebd;
+  color: #27dede;
 }
 
 .psh .constant.other.symbol {
@@ -337,7 +337,7 @@
 }
 
 .psh .string.regexp {
-  color: #0fdebd;
+  color: #27dede;
 }
 
 .psh .string.regexp .source.ruby.embedded {
@@ -346,6 +346,10 @@
 
 .psh .string.other.link {
   color: #fa5e5b;
+}
+
+.psh .string .embedded.php {
+  color: #dbe6ec;
 }
 
 .psh .punctuation.definition.comment {
@@ -379,7 +383,7 @@
 }
 
 .psh .support.function {
-  color: #0fdebd;
+  color: #27dede;
 }
 
 .psh .support.function.any-method {
@@ -449,6 +453,11 @@
   color: #fa5e5b;
 }
 
+.psh .markup.strike {
+  color: #99a9b3;
+  text-decoration: line-through;
+}
+
 .psh .markup.italic {
   color: #ff708e;
   font-style: italic;
@@ -478,6 +487,34 @@
   -webkit-font-smoothing: auto;
 }
 
-.psh .source.gfm .markup.heading {
+.psh .source.gfm .markup.heading-1, .psh .source.gfm .markup.heading-2, .psh .source.gfm .markup.heading-3 {
+  color: #27dede;
+}
+
+.psh .source.gfm .markup.heading-4, .psh .source.gfm .markup.heading-5, .psh .source.gfm .markup.heading-6 {
   color: #16c98d;
+}
+
+.psh .source.gfm .markup.marker {
+  color: #fff;
+}
+
+.psh .source.gfm .link .entity {
+  color: #16c98d;
+}
+
+.psh .source.gfm .link .link {
+  color: #8abee5;
+}
+
+.psh .source.gfm .link .link .begin, .psh .source.gfm .link .link .end {
+  color: #dbe6ec;
+}
+
+.psh .source.gfm .table {
+  color: #16c98d;
+}
+
+.psh .source.gfm .table .border {
+  color: #67747c;
 }

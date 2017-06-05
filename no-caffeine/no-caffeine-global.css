@@ -465,8 +465,17 @@
   color: #74afb4;
 }
 
-:global(.psh .source.sass .variable:not(.interpolation):not(.set)),
-:global(.psh .source.scss .variable:not(.interpolation):not(.set)) {
+:global(.psh .source.sass .variable-declaration),
+:global(.psh .source.sass .variable:not(.interpolation):not(.set):not(.parameter)),
+:global(.psh .source.scss .variable-declaration),
+:global(.psh .source.scss .variable:not(.interpolation):not(.set):not(.parameter)) {
+  color: #db8286;
+}
+
+:global(.psh .source.sass .variable-declaration .punctuation.definition),
+:global(.psh .source.sass .variable:not(.interpolation):not(.set):not(.parameter) .punctuation.definition),
+:global(.psh .source.scss .variable-declaration .punctuation.definition),
+:global(.psh .source.scss .variable:not(.interpolation):not(.set):not(.parameter) .punctuation.definition) {
   color: #db8286;
 }
 
@@ -518,7 +527,7 @@
   color: #cf8554;
 }
 
-:global(.psh .source.less .variable:not(.interpolation):not(.set)) {
+:global(.psh .source.less .variable:not(.interpolation):not(.set):not(.misc)) {
   color: #db8286;
 }
 

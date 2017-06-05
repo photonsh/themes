@@ -256,7 +256,7 @@
 :global(.psh .psh-commands::before) {
   content: ">";
   padding-right: .8em;
-  color: #6ec1b9;
+  color: #91b859;
 }
 
 :global(.psh .comment), :global(.psh .punctuation.definition.comment) {
@@ -299,6 +299,10 @@
   color: #39adb5;
 }
 
+:global(.psh .entity.name.tag), :global(.psh .meta.tag.sgml) {
+  color: #ff5370;
+}
+
 :global(.psh .entity.name.function), :global(.psh .keyword.other.special-method), :global(.psh .meta.block-level), :global(.psh .meta.function-call), :global(.psh .support.function), :global(.psh .variable.function) {
   color: #6182b8;
 }
@@ -309,6 +313,14 @@
 
 :global(.psh .constant.character), :global(.psh .constant.language), :global(.psh .constant.numeric), :global(.psh .keyword.other.unit), :global(.psh .support.constant), :global(.psh .variable.parameter) {
   color: #f76d47;
+}
+
+:global(.psh .constant.other.key), :global(.psh .constant.other.symbol), :global(.psh .entity.other.inherited-class), :global(.psh .markup.heading), :global(.psh .meta.group.braces.curly .constant.other.object.key.js .string.unquoted.label.js), :global(.psh .string) {
+  color: #91b859;
+}
+
+:global(.psh .entity.name.class), :global(.psh .entity.name.type.class), :global(.psh .meta.use.php), :global(.psh .support.class), :global(.psh .support.orther.namespace.use.php), :global(.psh .support.other.namespace.php), :global(.psh .support.type), :global(.psh .support.type.sys-types) {
+  color: #ffb62c;
 }
 
 :global(.psh .source.css .support.type), :global(.psh .source.less .support.type), :global(.psh .source.sass .support.type), :global(.psh .source.scss .support.type), :global(.psh .source.stylus .support.type) {
@@ -553,20 +565,20 @@
   background-color: #7c4dff;
 }
 
-:global(.psh [data-grammar*="gfm"] .markup.underline.link) {
+:global(.psh .source.gfm .markup.underline.link) {
   color: #ff869a;
 }
 
-:global(.psh [data-grammar*="gfm"] .markup.underline.link span.punctuation) {
+:global(.psh .source.gfm .markup.underline.link span.punctuation) {
   color: #ff5370;
 }
 
-:global(.psh [data-grammar*="gfm"] .markup.strike) {
+:global(.psh .source.gfm .markup.strike) {
   position: relative;
   color: rgba(96, 125, 139, .5);
 }
 
-:global(.psh [data-grammar*="gfm"] .markup.strike::after) {
+:global(.psh .source.gfm .markup.strike::after) {
   content: "";
   position: absolute;
   top: 54%;
@@ -576,20 +588,20 @@
   background-color: rgba(96, 125, 139, .2);
 }
 
-:global(.psh [data-grammar*="gfm"] .table .border) {
+:global(.psh .source.gfm .table .border) {
   color: rgba(96, 125, 139, .5);
 }
 
-:global(.psh [data-grammar*="gfm"] .markup.heading) {
+:global(.psh .source.gfm .markup.heading) {
   color: #82b1ff;
 }
 
-:global(.psh [data-grammar*="gfm"] .punctuation.definition.begin),
-:global(.psh [data-grammar*="gfm"] .punctuation.definition.end) {
+:global(.psh .source.gfm .punctuation.definition.begin),
+:global(.psh .source.gfm .punctuation.definition.end) {
   color: #82b1ff;
 }
 
-:global(.psh [data-grammar*="gfm"] .punctuation.definition.begin + span:not(.function.parameter)) {
+:global(.psh .source.gfm .punctuation.definition.begin + span:not(.function.parameter)) {
   color: #9cc1ff;
 }
 

@@ -256,7 +256,7 @@
 :global(.psh .psh-commands::before) {
   content: ">";
   padding-right: .8em;
-  color: #cdd3de;
+  color: #99c794;
 }
 
 :global(.psh .comment), :global(.psh .punctuation.definition.comment) {
@@ -279,6 +279,10 @@
   color: #5fb3b3;
 }
 
+:global(.psh .entity.name.tag), :global(.psh .meta.tag.sgml) {
+  color: #eb606b;
+}
+
 :global(.psh .entity.name.function), :global(.psh .keyword.other.special-method), :global(.psh .meta.block-level), :global(.psh .meta.function-call), :global(.psh .support.function) {
   color: #69c;
 }
@@ -289,6 +293,14 @@
 
 :global(.psh .constant.character), :global(.psh .constant.language), :global(.psh .constant.numeric), :global(.psh .keyword.other.unit), :global(.psh .punctuation.section.embedded), :global(.psh .support.constant), :global(.psh .variable.parameter) {
   color: #f99157;
+}
+
+:global(.psh .constant.other.symbol), :global(.psh .entity.other.inherited-class), :global(.psh .markup.heading), :global(.psh .string), :global(.psh .variable.quoted.elixir) {
+  color: #99c794;
+}
+
+:global(.psh .entity.name.class), :global(.psh .entity.name.type), :global(.psh .entity.name.type.class), :global(.psh .meta.use.php), :global(.psh .support.class), :global(.psh .support.orther.namespace.use.php), :global(.psh .support.other.namespace.php), :global(.psh .support.type), :global(.psh .variable.constant.elixir) {
+  color: #fac863;
 }
 
 :global(.psh .entity.name.module.js), :global(.psh .variable.import.parameter.js), :global(.psh .variable.other.class.js) {

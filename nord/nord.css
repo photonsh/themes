@@ -502,8 +502,7 @@
   color: #81a1c1;
 }
 
-.psh .punctuation.section.class,
-.psh .punctuation.section.inner-class .punctuation.section.method {
+.psh .punctuation.section.class, .psh .punctuation.section.inner-class, .psh .punctuation.section.method {
   color: #8fbcbb;
 }
 
@@ -511,7 +510,7 @@
   color: #81a1c1;
 }
 
-.psh .storage.modifier.import .storage.modifier.package {
+.psh .storage.modifier.import, .psh .storage.modifier.package {
   color: #8fbcbb;
 }
 

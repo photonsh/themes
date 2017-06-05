@@ -381,11 +381,11 @@
   color: #ae81ff;
 }
 
-.psh .leading-whitespace, .psh .trailing-whitespace {
+.psh .trailing-whitespace {
   display: inline-block;
 }
 
-.psh .js .template .element .quasi.begin, .psh .js .template .element .quasi.end {
+.psh .js .template .element .language, .psh .js .template .element .quasi.begin, .psh .js .template .element .quasi.end {
   color: #f92672;
 }
 
@@ -393,7 +393,10 @@
   color: #f8f8f2;
 }
 
-.psh .json .dictionary:not(.value) > .quoted,
-.psh .json .dictionary:not(.value) > .string > .punctuation {
+.psh .js .template .element .constant {
+  color: #ae81ff;
+}
+
+.psh .json .key .string {
   color: #a6e22e;
 }

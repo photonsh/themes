@@ -311,6 +311,10 @@
   color: #c3e88d;
 }
 
+:global(.psh .constant.language.null) {
+  color: #ff5370;
+}
+
 :global(.psh .variable) {
   color: #eff;
 }
@@ -533,6 +537,14 @@
   color: #c3e88d;
 }
 
+:global(.psh .jsx.component) {
+  color: #f07178;
+}
+
+:global(.psh .source.js.jsx .jsx .entity.other.attribute-name) {
+  font-style: normal;
+}
+
 :global(.psh .css .support.constant) {
   color: #89ddf3;
 }
@@ -542,11 +554,15 @@
 }
 
 :global(.psh .css .keyword.unit) {
+  color: #f78c6a;
+}
+
+:global(.psh .css .constant.numeric) {
   color: #ffe082;
 }
 
 :global(.psh .css .constant.color) {
-  color: #f78c6a;
+  color: #ffe082;
 }
 
 :global(.psh .css .constant.color .punctuation) {
@@ -557,11 +573,63 @@
   color: #b2ccd6;
 }
 
-:global(.psh .html .meta.tag.doctype) {
+:global(.psh .css .entity.id) {
   color: #c792ea;
 }
 
-:global(.psh .html .punctuation.tag) {
+:global(.psh .css .punctuation.delimiter) {
+  color: #89ddf3;
+}
+
+:global(.psh .css .punctuation.delimiter + .constant.numeric:not(.color)) {
+  color: #f78c6a;
+}
+
+:global(.psh .source.gfm .markup.underline.link) {
+  color: #ff869a;
+}
+
+:global(.psh .source.gfm .markup.underline.link span.punctuation) {
+  color: #ff5370;
+}
+
+:global(.psh .source.gfm .markup.strike) {
+  position: relative;
+  color: rgba(238, 255, 255, .5);
+}
+
+:global(.psh .source.gfm .markup.strike::after) {
+  content: "";
+  position: absolute;
+  top: 54%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: rgba(238, 255, 255, .5);
+}
+
+:global(.psh .source.gfm .table .border) {
+  color: rgba(238, 255, 255, .5);
+}
+
+:global(.psh .source.gfm .markup.heading) {
+  color: #82aaff;
+}
+
+:global(.psh .source.gfm .punctuation.definition.begin),
+:global(.psh .source.gfm .punctuation.definition.end) {
+  color: #82aaff;
+}
+
+:global(.psh .source.gfm .punctuation.definition.begin + span:not(.function.parameter)) {
+  color: #9cbbff;
+}
+
+:global(.psh .html .meta.tag.doctype), :global(.psh .jsx .meta.tag.doctype) {
+  color: #c792ea;
+}
+
+:global(.psh .html .punctuation.tag), :global(.psh .jsx .punctuation.tag) {
   color: #89ddf3;
 }
 
@@ -571,6 +639,10 @@
 
 :global(.psh .js .support.variable.property) {
   color: #eff;
+}
+
+:global(.psh .js .support.variable.property.dom) {
+  color: #82aaff;
 }
 
 :global(.psh .js .entity.name.type) {
@@ -585,12 +657,28 @@
   color: #eff;
 }
 
+:global(.psh .js .variable.other.object.property) {
+  color: #82aaff;
+}
+
+:global(.psh .js .string.quoted.template .other.object.property) {
+  color: #c3e88d;
+}
+
 :global(.psh .js .constant.numeric) {
   color: #f78c6a;
 }
 
 :global(.psh .js .constant.boolean) {
   color: #f07178;
+}
+
+:global(.psh .js .brace.curly), :global(.psh .js .delimiter.object.comma), :global(.psh .js .punctuation.begin), :global(.psh .js .punctuation.end) {
+  color: #89ddf3;
+}
+
+:global(.psh .js .export .variable.default) {
+  color: #c792ea;
 }
 
 :global(.psh .json .meta.array.structure .string.quoted.double) {

@@ -378,62 +378,6 @@
   color: #6d6db5;
 }
 
-.psh .tree-view:focus li.syntax-.directory.selected.status-added > .list-item::after {
-  background-color: #215f55;
-}
-
-.psh .tree-view:focus li.syntax-.directory.selected.status-added > .list-item .name,
-.psh .tree-view:focus li.syntax-.directory.selected.status-added > .list-item::before {
-  color: #19e589;
-}
-
-.psh .tree-view:focus li.list-nested-item > .list-item.selected.status-added::before,
-.psh .tree-view:focus li:not(.list-nested-item).selected.status-added::before {
-  background-color: #215f55;
-}
-
-.psh .tree-view:focus li.list-nested-item > .list-item.selected.status-added .name,
-.psh .tree-view:focus li:not(.list-nested-item).selected.status-added .name {
-  color: #19e589;
-}
-
-.psh .list-group li.list-nested-item.status-added:not(.selected) > .list-item,
-.psh .list-group li.list-nested-item > .list-item.status-added,
-.psh .list-group li:not(.list-nested-item):not(.tabBlender).status-added,
-.psh .list-tree li.list-nested-item.status-added:not(.selected) > .list-item,
-.psh .list-tree li.list-nested-item > .list-item.status-added,
-.psh .list-tree li:not(.list-nested-item):not(.tabBlender).status-added {
-  color: #19e589;
-}
-
-.psh .tree-view:focus li.directory.selected.status-modified > .list-item::after {
-  background-color: #963700;
-}
-
-.psh .tree-view:focus li.directory.selected.status-modified > .list-item .name,
-.psh .tree-view:focus li.directory.selected.status-modified > .list-item::before {
-  color: #ffab35;
-}
-
-.psh .tree-view:focus li.list-nested-item > .list-item.selected.status-modified::before,
-.psh .tree-view:focus li:not(.list-nested-item).selected.status-modified::before {
-  background-color: #963700;
-}
-
-.psh .tree-view:focus li.list-nested-item > .list-item.selected.status-modified .name,
-.psh .tree-view:focus li:not(.list-nested-item).selected.status-modified .name {
-  color: #ffab35;
-}
-
-.psh .list-group li.list-nested-item.status-modified:not(.selected) > .list-item,
-.psh .list-group li.list-nested-item > .list-item.status-modified,
-.psh .list-group li:not(.list-nested-item):not(.tabBlender).status-modified,
-.psh .list-tree li.list-nested-item.status-modified:not(.selected) > .list-item,
-.psh .list-tree li.list-nested-item > .list-item.status-modified,
-.psh .list-tree li:not(.list-nested-item):not(.tabBlender).status-modified {
-  color: #ffab35;
-}
-
 .psh .haml .punctuation.embedded {
   color: #ff6f9f;
 }
