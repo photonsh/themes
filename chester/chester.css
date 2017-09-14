@@ -336,6 +336,10 @@
   color: #16c98d;
 }
 
+.psh .string .embedded {
+  color: #dbe6ec;
+}
+
 .psh .string.regexp {
   color: #27dede;
 }
@@ -390,6 +394,10 @@
   color: #288ad6;
 }
 
+.psh .ts.name.function {
+  color: #288ad6;
+}
+
 .psh .entity.name.function {
   color: #288ad6;
 }
@@ -413,10 +421,6 @@
 
 .psh .entity.other.attribute-name.id {
   color: #288ad6;
-}
-
-.psh .meta.class {
-  color: #ffc83f;
 }
 
 .psh .meta.link {

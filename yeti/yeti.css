@@ -457,6 +457,7 @@
 }
 
 .psh .html .entity.name.tag {
+  -webkit-text-decoration: done;
   text-decoration: done;
 }
 
@@ -499,6 +500,7 @@
 
 .psh .entity.name.tag {
   color: #dcb553;
+  -webkit-text-decoration: done;
   text-decoration: done;
 }
 

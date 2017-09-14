@@ -1,6 +1,6 @@
 :global(.psh) {
-  background-color: #20272b;
-  color: #ddd;
+  background-color: #24292e;
+  color: #f6f8fa;
   margin: 1em 0;
 }
 
@@ -30,8 +30,8 @@
   -ms-flex-positive: 1;
   flex-grow: 1;
   padding: 18px;
-  background-color: #20272b;
-  color: #ddd;
+  background-color: #24292e;
+  color: #f6f8fa;
   line-height: 18px;
   font-size: 13px;
   font-family: monospace;
@@ -66,7 +66,7 @@
   -ms-user-select: none;
   user-select: none;
   text-align: right;
-  color: #7f8284;
+  color: #8d9194;
 }
 
 :global(.psh .psh-line-numbers.psh-line-numbers-s .psh-line::before) {
@@ -86,7 +86,7 @@
 }
 
 :global(.psh .psh-label) {
-  background-color: #20272b;
+  background-color: #24292e;
   height: 18px;
   text-align: right;
   line-height: 18px;
@@ -104,31 +104,31 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: #363d40;
-  color: #afb1b3;
+  background-color: #3a3e43;
+  color: #b0b2b4;
 }
 
 :global(.psh .psh-caption) {
   padding: 12px;
-  background-color: #363d40;
+  background-color: #3a3e43;
   font-family: sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
   word-break: break-all;
-  color: #afb1b3;
+  color: #b0b2b4;
 }
 
 :global(.psh .psh-filename) {
   padding: 3px 12px;
-  background-color: #363d40;
+  background-color: #3a3e43;
   font-family: monospace;
   font-weight: 500;
   font-size: 13px;
   line-height: 24px;
   word-break: break-all;
   text-align: center;
-  color: #afb1b3;
+  color: #b0b2b4;
 }
 
 :global(.psh .psh-request) {
@@ -148,7 +148,7 @@
   -ms-flex-align: center;
   align-items: center;
   padding: 0 12px;
-  background-color: #7f8284;
+  background-color: #8d9194;
   font-size: 15px;
   color: #fff;
 }
@@ -182,30 +182,30 @@
   align-items: center;
   width: 100%;
   padding: 6px 12px;
-  background-color: #4f5558;
+  background-color: #595d61;
   font-size: 13px;
   word-break: break-all;
-  color: #afb1b3;
+  color: #b0b2b4;
 }
 
 :global(.psh .psh-request .psh-request-method-get + .psh-request-resource) {
-  background-color: #394445;
+  background-color: #3c4647;
 }
 
 :global(.psh .psh-request .psh-request-method-post + .psh-request-resource) {
-  background-color: #364449;
+  background-color: #39454c;
 }
 
 :global(.psh .psh-request .psh-request-method-put + .psh-request-resource) {
-  background-color: #3c404a;
+  background-color: #3f424d;
 }
 
 :global(.psh .psh-request .psh-request-method-patch + .psh-request-resource) {
-  background-color: #414242;
+  background-color: #444345;
 }
 
 :global(.psh .psh-request .psh-request-method-delete + .psh-request-resource) {
-  background-color: #403f44;
+  background-color: #434146;
 }
 
 :global(.psh .psh-add), :global(.psh .psh-highlight), :global(.psh .psh-remove) {
@@ -215,17 +215,17 @@
 
 :global(.psh .psh-highlight) {
   border-left: 3px solid #dba643;
-  background-color: #404342;
+  background-color: #434545;
 }
 
 :global(.psh .psh-add) {
   border-left: 3px solid #42bd79;
-  background-color: #394445;
+  background-color: #3c4647;
 }
 
 :global(.psh .psh-remove) {
   border-left: 3px solid #df435d;
-  background-color: #403f44;
+  background-color: #434146;
 }
 
 :global(.psh .psh-invisibles-lf), :global(.psh .psh-invisibles-space), :global(.psh .psh-invisibles-tab) {
@@ -238,7 +238,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: #4f5558;
+  color: #595d61;
 }
 
 :global(.psh .psh-invisibles-tab::before) {
@@ -256,26 +256,26 @@
 :global(.psh .psh-commands::before) {
   content: ">";
   padding-right: .8em;
-  color: #3c66e2;
+  color: #79b8ff;
 }
 
 :global(.psh .comment), :global(.psh .punctuation.definition.comment), :global(.psh .string.comment) {
-  color: #969896;
+  color: #959da5;
 }
 
 :global(.psh .constant), :global(.psh .entity.name.constant), :global(.psh .variable.language), :global(.psh .variable.other.constant) {
-  color: #0099cd;
+  color: #c8e1ff;
 }
 
 :global(.psh .entity), :global(.psh .entity.name) {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color: #9774cb;
+  color: #b392f0;
 }
 
 :global(.psh .variable.parameter.function) {
-  color: #ddd;
+  color: #f6f8fa;
 }
 
 :global(.psh .entity.name.tag) {
@@ -289,75 +289,75 @@
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color: #cc2372;
+  color: #ea4a5a;
 }
 
 :global(.psh .storage), :global(.psh .storage.type) {
-  color: #cc2372;
+  color: #ea4a5a;
 }
 
 :global(.psh .storage.modifier.import), :global(.psh .storage.modifier.package), :global(.psh .storage.type.java) {
-  color: #ddd;
+  color: #f6f8fa;
 }
 
 :global(.psh .punctuation.definition.string), :global(.psh .string), :global(.psh .string .punctuation.section.embedded .source) {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color: #3c66e2;
+  color: #79b8ff;
 }
 
 :global(.psh .support) {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color: #0099cd;
+  color: #c8e1ff;
 }
 
 :global(.psh .meta.property-name) {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color: #0099cd;
+  color: #c8e1ff;
 }
 
 :global(.psh .variable) {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color: #fb8764;
+  color: #fb8532;
 }
 
 :global(.psh .variable.other) {
-  color: #ddd;
+  color: #f6f8fa;
 }
 
 :global(.psh .invalid.broken) {
   font-weight: 700;
   font-style: italic;
   text-decoration: underline;
-  color: #e63525;
+  color: #d73a49;
 }
 
 :global(.psh .invalid.deprecated) {
   font-weight: 700;
   font-style: italic;
   text-decoration: underline;
-  color: #e63525;
+  color: #d73a49;
 }
 
 :global(.psh .invalid.illegal) {
   font-style: italic;
   text-decoration: underline;
-  color: #f8f8f8;
-  background-color: #e63525;
+  color: #fafbfc;
+  background-color: #d73a49;
 }
 
 :global(.psh .carriage-return) {
   font-style: italic;
   text-decoration: underline;
-  color: #f8f8f8;
-  background-color: #e63525;
+  color: #fafbfc;
+  background-color: #d73a49;
   undefined: ^M;
 }
 
@@ -365,36 +365,36 @@
   font-weight: 700;
   font-style: italic;
   text-decoration: underline;
-  color: #e63525;
+  color: #d73a49;
 }
 
 :global(.psh .message.error) {
-  color: #e63525;
+  color: #d73a49;
 }
 
 :global(.psh .string .source) {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color: #ddd;
+  color: #f6f8fa;
 }
 
 :global(.psh .string .variable) {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color: #0099cd;
+  color: #c8e1ff;
 }
 
 :global(.psh .source.regexp), :global(.psh .string.regexp) {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color: #3c66e2;
+  color: #79b8ff;
 }
 
 :global(.psh .string.regexp.character-class), :global(.psh .string.regexp .constant.character.escape), :global(.psh .string.regexp .source.ruby.embedded), :global(.psh .string.regexp .string.regexp.arbitrary-repitition) {
-  color: #3c66e2;
+  color: #79b8ff;
 }
 
 :global(.psh .string.regexp .constant.character.escape) {
@@ -406,86 +406,86 @@
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color: #0099cd;
+  color: #c8e1ff;
 }
 
 :global(.psh .support.variable) {
-  color: #0099cd;
+  color: #c8e1ff;
 }
 
 :global(.psh .meta.module-reference) {
-  color: #0099cd;
+  color: #c8e1ff;
 }
 
 :global(.psh .markup.list) {
-  color: #c26b2b;
+  color: #fb8532;
 }
 
 :global(.psh .markup.heading), :global(.psh .markup.heading .entity.name) {
   font-weight: 700;
-  color: #264ec5;
+  color: #0366d6;
 }
 
 :global(.psh .markup.quote) {
-  color: #00acac;
+  color: #c8e1ff;
 }
 
 :global(.psh .markup.italic) {
   font-style: italic;
-  color: #ddd;
+  color: #f6f8fa;
 }
 
 :global(.psh .markup.bold) {
   font-weight: 700;
-  color: #ddd;
+  color: #f6f8fa;
 }
 
 :global(.psh .markup.raw) {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color: #0099cd;
+  color: #c8e1ff;
 }
 
 :global(.psh .markup.deleted), :global(.psh .meta.diff.header.from-file), :global(.psh .punctuation.definition.deleted) {
-  background-color: #ffecec;
-  color: #bd2c00;
+  background-color: #ffeef0;
+  color: #b31d28;
 }
 
 :global(.psh .markup.inserted), :global(.psh .meta.diff.header.to-file), :global(.psh .punctuation.definition.inserted) {
-  background-color: #eaffea;
-  color: #55a532;
+  background-color: #f0fff4;
+  color: #176f2c;
 }
 
 :global(.psh .markup.changed), :global(.psh .punctuation.definition.changed) {
-  background-color: #ffe3b4;
-  color: #ef9700;
+  background-color: #fffdef;
+  color: #b08800;
 }
 
 :global(.psh .markup.ignored), :global(.psh .markup.untracked) {
-  color: #d8d8d8;
-  background-color: gray;
+  color: #2f363d;
+  background-color: #959da5;
 }
 
 :global(.psh .meta.diff.range) {
   font-weight: 700;
-  color: #9774cb;
+  color: #b392f0;
 }
 
 :global(.psh .meta.diff.header) {
-  color: #0099cd;
+  color: #c8e1ff;
 }
 
 :global(.psh .meta.separator) {
   font-weight: 700;
-  color: #264ec5;
+  color: #0366d6;
 }
 
 :global(.psh .meta.output) {
-  color: #264ec5;
+  color: #0366d6;
 }
 
 :global(.psh .constant.other.reference.link), :global(.psh .string.other.link) {
-  color: #3c66e2;
+  color: #79b8ff;
   text-decoration: underline;
 }

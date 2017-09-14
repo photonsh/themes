@@ -547,6 +547,46 @@
   color: #abb2bf;
 }
 
+.psh .source.elixir .source.embedded.source {
+  color: #abb2bf;
+}
+
+.psh .source.elixir .constant.definition, .psh .source.elixir .constant.language, .psh .source.elixir .constant.numeric {
+  color: #61afef;
+}
+
+.psh .source.elixir .variable.anonymous, .psh .source.elixir .variable.definition {
+  color: #c678dd;
+}
+
+.psh .source.elixir .quoted {
+  color: #98c379;
+}
+
+.psh .source.elixir .embedded.section, .psh .source.elixir .embedded.source.empty, .psh .source.elixir .keyword.special-method {
+  color: #e06c75;
+}
+
+.psh .source.elixir .readwrite.module .punctuation {
+  color: #e06c75;
+}
+
+.psh .source.elixir .regexp.section, .psh .source.elixir .regexp.string {
+  color: #be5046;
+}
+
+.psh .source.elixir .keyword.operator, .psh .source.elixir .separator {
+  color: #d19a66;
+}
+
+.psh .source.elixir .variable.constant {
+  color: #e5c07b;
+}
+
+.psh .source.elixir .array, .psh .source.elixir .scope, .psh .source.elixir .section {
+  color: #828997;
+}
+
 .psh .source.gfm .markup {
   -webkit-font-smoothing: auto;
 }

@@ -1,6 +1,6 @@
 .psh {
   background-color: #fff;
-  color: #333;
+  color: #24292e;
   margin: 1em 0;
 }
 
@@ -31,7 +31,7 @@
   flex-grow: 1;
   padding: 18px;
   background-color: #fff;
-  color: #333;
+  color: #24292e;
   line-height: 18px;
   font-size: 13px;
   font-family: monospace;
@@ -66,7 +66,7 @@
   -ms-user-select: none;
   user-select: none;
   text-align: right;
-  color: #999;
+  color: #929497;
 }
 
 .psh .psh-line-numbers.psh-line-numbers-s .psh-line::before {
@@ -148,7 +148,7 @@
   -ms-flex-align: center;
   align-items: center;
   padding: 0 12px;
-  background-color: #999;
+  background-color: #929497;
   font-size: 15px;
   color: #fff;
 }
@@ -182,7 +182,7 @@
   align-items: center;
   width: 100%;
   padding: 6px 12px;
-  background-color: #ccc;
+  background-color: #c8cacb;
   font-size: 13px;
   word-break: break-all;
   color: #5c5c5c;
@@ -238,7 +238,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: #ccc;
+  color: #c8cacb;
 }
 
 .psh .psh-invisibles-tab::before {
@@ -256,108 +256,108 @@
 .psh .psh-commands::before {
   content: ">";
   padding-right: .8em;
-  color: #183691;
+  color: #032f62;
 }
 
 .psh .comment, .psh .punctuation.definition.comment, .psh .string.comment {
-  color: #969896;
+  color: #6a737d;
 }
 
 .psh .constant, .psh .entity.name.constant, .psh .variable.language, .psh .variable.other.constant {
-  color: #0086b3;
+  color: #005cc5;
 }
 
 .psh .entity, .psh .entity.name {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color: #795da3;
+  color: #6f42c1;
 }
 
 .psh .variable.parameter.function {
-  color: #333;
+  color: #24292e;
 }
 
 .psh .entity.name.tag {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color: #63a35c;
+  color: #22863a;
 }
 
 .psh .keyword {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color: #a71d5d;
+  color: #d73a49;
 }
 
 .psh .storage, .psh .storage.type {
-  color: #a71d5d;
+  color: #d73a49;
 }
 
 .psh .storage.modifier.import, .psh .storage.modifier.package, .psh .storage.type.java {
-  color: #333;
+  color: #24292e;
 }
 
 .psh .punctuation.definition.string, .psh .string, .psh .string .punctuation.section.embedded .source {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color: #183691;
+  color: #032f62;
 }
 
 .psh .support {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color: #0086b3;
+  color: #005cc5;
 }
 
 .psh .meta.property-name {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color: #0086b3;
+  color: #005cc5;
 }
 
 .psh .variable {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color: #ed6a43;
+  color: #e36209;
 }
 
 .psh .variable.other {
-  color: #333;
+  color: #24292e;
 }
 
 .psh .invalid.broken {
   font-weight: 700;
   font-style: italic;
   text-decoration: underline;
-  color: #b52a1d;
+  color: #b31d28;
 }
 
 .psh .invalid.deprecated {
   font-weight: 700;
   font-style: italic;
   text-decoration: underline;
-  color: #b52a1d;
+  color: #b31d28;
 }
 
 .psh .invalid.illegal {
   font-style: italic;
   text-decoration: underline;
-  background-color: #b52a1d;
-  color: #f8f8f8;
+  background-color: #b31d28;
+  color: #fafbfc;
 }
 
 .psh .carriage-return {
   font-style: italic;
   text-decoration: underline;
-  background-color: #b52a1d;
-  color: #f8f8f8;
+  background-color: #d73a49;
+  color: #fafbfc;
   undefined: ^M;
 }
 
@@ -365,127 +365,127 @@
   font-weight: 700;
   font-style: italic;
   text-decoration: underline;
-  color: #b52a1d;
+  color: #b31d28;
 }
 
 .psh .message.error {
-  color: #b52a1d;
+  color: #b31d28;
 }
 
 .psh .string .source {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color: #333;
+  color: #24292e;
 }
 
 .psh .string .variable {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color: #0086b3;
+  color: #005cc5;
 }
 
 .psh .source.regexp, .psh .string.regexp {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color: #183691;
+  color: #032f62;
 }
 
 .psh .string.regexp.character-class, .psh .string.regexp .constant.character.escape, .psh .string.regexp .source.ruby.embedded, .psh .string.regexp .string.regexp.arbitrary-repitition {
-  color: #183691;
+  color: #032f62;
 }
 
 .psh .string.regexp .constant.character.escape {
   font-weight: 700;
-  color: #63a35c;
+  color: #22863a;
 }
 
 .psh .support.constant {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color: #0086b3;
+  color: #005cc5;
 }
 
 .psh .support.variable {
-  color: #0086b3;
+  color: #005cc5;
 }
 
 .psh .meta.module-reference {
-  color: #0086b3;
+  color: #005cc5;
 }
 
 .psh .markup.list {
-  color: #693a17;
+  color: #735c0f;
 }
 
 .psh .markup.heading, .psh .markup.heading .entity.name {
   font-weight: 700;
-  color: #1d3e81;
+  color: #005cc5;
 }
 
 .psh .markup.quote {
-  color: teal;
+  color: #22863a;
 }
 
 .psh .markup.italic {
   font-style: italic;
-  color: #333;
+  color: #24292e;
 }
 
 .psh .markup.bold {
   font-weight: 700;
-  color: #333;
+  color: #24292e;
 }
 
 .psh .markup.raw {
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
-  color: #0086b3;
+  color: #005cc5;
 }
 
 .psh .markup.deleted, .psh .meta.diff.header.from-file, .psh .punctuation.definition.deleted {
-  background-color: #ffecec;
-  color: #bd2c00;
+  background-color: #ffeef0;
+  color: #b31d28;
 }
 
 .psh .markup.inserted, .psh .meta.diff.header.to-file, .psh .punctuation.definition.inserted {
-  background-color: #eaffea;
-  color: #55a532;
+  background-color: #f0fff4;
+  color: #22863a;
 }
 
 .psh .markup.changed, .psh .punctuation.definition.changed {
-  background-color: #ffe3b4;
-  color: #ef9700;
+  background-color: #ffebda;
+  color: #e36209;
 }
 
 .psh .markup.ignored, .psh .markup.untracked {
-  color: #d8d8d8;
-  background-color: gray;
+  color: #f6f8fa;
+  background-color: #005cc5;
 }
 
 .psh .meta.diff.range {
-  color: #795da3;
+  color: #6f42c1;
   font-weight: 700;
 }
 
 .psh .meta.diff.header {
-  color: #0086b3;
+  color: #005cc5;
 }
 
 .psh .meta.separator {
   font-weight: 700;
-  color: #1d3e81;
+  color: #005cc5;
 }
 
 .psh .meta.output {
-  color: #1d3e81;
+  color: #005cc5;
 }
 
 .psh .constant.other.reference.link, .psh .string.other.link {
-  color: #183691;
+  color: #032f62;
   text-decoration: underline;
 }

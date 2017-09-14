@@ -336,6 +336,10 @@
   color: #16c98d;
 }
 
+:global(.psh .string .embedded) {
+  color: #dbe6ec;
+}
+
 :global(.psh .string.regexp) {
   color: #27dede;
 }
@@ -390,6 +394,10 @@
   color: #288ad6;
 }
 
+:global(.psh .ts.name.function) {
+  color: #288ad6;
+}
+
 :global(.psh .entity.name.function) {
   color: #288ad6;
 }
@@ -413,10 +421,6 @@
 
 :global(.psh .entity.other.attribute-name.id) {
   color: #288ad6;
-}
-
-:global(.psh .meta.class) {
-  color: #ffc83f;
 }
 
 :global(.psh .meta.link) {
