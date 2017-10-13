@@ -567,6 +567,46 @@
   color: #42bd8e;
 }
 
+:global(.psh .source.elixir .source.embedded.source) {
+  color: #554158;
+}
+
+:global(.psh .source.elixir .constant.definition), :global(.psh .source.elixir .constant.language), :global(.psh .source.elixir .constant.numeric) {
+  color: #df435d;
+}
+
+:global(.psh .source.elixir .variable.anonymous), :global(.psh .source.elixir .variable.definition) {
+  color: #845eed;
+}
+
+:global(.psh .source.elixir .quoted) {
+  color: #42bd8e;
+}
+
+:global(.psh .source.elixir .embedded.section), :global(.psh .source.elixir .embedded.source.empty), :global(.psh .source.elixir .keyword.special-method) {
+  color: #f0813d;
+}
+
+:global(.psh .source.elixir .readwrite.module .punctuation) {
+  color: #f0813d;
+}
+
+:global(.psh .source.elixir .regexp.section), :global(.psh .source.elixir .regexp.string) {
+  color: #ca1243;
+}
+
+:global(.psh .source.elixir .keyword.operator), :global(.psh .source.elixir .separator) {
+  color: #dba643;
+}
+
+:global(.psh .source.elixir .variable.constant) {
+  color: #b36e32;
+}
+
+:global(.psh .source.elixir .array), :global(.psh .source.elixir .scope), :global(.psh .source.elixir .section) {
+  color: #7e6f80;
+}
+
 :global(.psh .source.gfm .markup) {
   -webkit-font-smoothing: auto;
 }

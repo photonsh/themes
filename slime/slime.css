@@ -301,7 +301,7 @@
   color: #e6db74;
 }
 
-.psh .invalid {
+.psh .invalid.illegal {
   color: #f8f8f0;
   background-color: #00a8c6;
 }
@@ -468,4 +468,68 @@
 
 .psh .meta.structure.dictionary.value.json .string.quoted.double.json {
   color: #8f9d6a;
+}
+
+.psh .source.gfm {
+  color: #999;
+}
+
+.psh .gfm.heading {
+  font-weight: 700;
+}
+
+.psh .gfm.bold {
+  font-weight: 700;
+}
+
+.psh .gfm.italic {
+  font-style: italic;
+}
+
+.psh .gfm.strike {
+  text-decoration: line-through;
+}
+
+.psh .gfm .markup.heading {
+  color: silver;
+}
+
+.psh .gfm .link {
+  color: #e9967a;
+}
+
+.psh .gfm .support.quote, .psh .gfm .variable.list {
+  color: #555;
+}
+
+.psh .gfm .link .entity {
+  color: #dcdcdc;
+}
+
+.psh .gfm .raw {
+  color: #aaa;
+}
+
+.psh .markdown .paragraph {
+  color: #999;
+}
+
+.psh .markdown .heading {
+  color: silver;
+}
+
+.psh .markdown .raw {
+  color: #aaa;
+}
+
+.psh .markdown .link {
+  color: #555;
+}
+
+.psh .markdown .link .string {
+  color: #555;
+}
+
+.psh .markdown .link .string.title {
+  color: #dcdcdc;
 }

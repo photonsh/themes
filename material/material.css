@@ -633,51 +633,55 @@
   color: #89ddf3;
 }
 
-.psh .js .constant {
+.psh .js.constant {
   color: #eff;
 }
 
-.psh .js .support.variable.property {
+.psh .js.support.variable.property {
   color: #eff;
 }
 
-.psh .js .support.variable.property.dom {
+.psh .js.support.variable.property.dom {
   color: #82aaff;
 }
 
-.psh .js .entity.name.type {
+.psh .js.entity.name.type {
   color: #ffcb6b;
 }
 
-.psh .js .variable.property {
+.psh .js.variable.property {
   color: #82aaff;
 }
 
-.psh .js .variable.other.object {
+.psh .js.variable.other.object {
   color: #eff;
 }
 
-.psh .js .variable.other.object.property {
+.psh .js.variable.other.object.property {
   color: #82aaff;
 }
 
-.psh .js .string.quoted.template .other.object.property {
+.psh .js.string.quoted.template .other.object.property {
   color: #c3e88d;
 }
 
-.psh .js .constant.numeric {
+.psh .js.constant.numeric {
   color: #f78c6a;
 }
 
-.psh .js .constant.boolean {
+.psh .js.constant.boolean {
   color: #f07178;
 }
 
-.psh .js .brace.curly, .psh .js .delimiter.object.comma, .psh .js .punctuation.begin, .psh .js .punctuation.end {
+.psh .js.brace.curly, .psh .js.delimiter.object.comma, .psh .js.punctuation.begin, .psh .js.punctuation.end {
   color: #89ddf3;
 }
 
-.psh .js .export .variable.default {
+.psh .comment .js.brace.curly, .psh .comment .js.delimiter.object.comma, .psh .comment .js.punctuation.begin, .psh .comment .js.punctuation.end {
+  color: #4f6875;
+}
+
+.psh .js.export .variable.default {
   color: #c792ea;
 }
 
@@ -715,15 +719,15 @@
   color: currentColor;
 }
 
-.psh .php .keyword.operator.assignment {
+.psh .php.keyword.operator.assignment {
   color: #c792ea;
 }
 
-.psh .php .meta.object {
+.psh .php.meta.object {
   color: #82aaff;
 }
 
-.psh .php .meta.arguments {
+.psh .php.meta.arguments {
   color: #c792ea;
 }
 

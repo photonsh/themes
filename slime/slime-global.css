@@ -301,7 +301,7 @@
   color: #e6db74;
 }
 
-:global(.psh .invalid) {
+:global(.psh .invalid.illegal) {
   color: #f8f8f0;
   background-color: #00a8c6;
 }
@@ -468,4 +468,68 @@
 
 :global(.psh .meta.structure.dictionary.value.json .string.quoted.double.json) {
   color: #8f9d6a;
+}
+
+:global(.psh .source.gfm) {
+  color: #999;
+}
+
+:global(.psh .gfm.heading) {
+  font-weight: 700;
+}
+
+:global(.psh .gfm.bold) {
+  font-weight: 700;
+}
+
+:global(.psh .gfm.italic) {
+  font-style: italic;
+}
+
+:global(.psh .gfm.strike) {
+  text-decoration: line-through;
+}
+
+:global(.psh .gfm .markup.heading) {
+  color: silver;
+}
+
+:global(.psh .gfm .link) {
+  color: #e9967a;
+}
+
+:global(.psh .gfm .support.quote), :global(.psh .gfm .variable.list) {
+  color: #555;
+}
+
+:global(.psh .gfm .link .entity) {
+  color: #dcdcdc;
+}
+
+:global(.psh .gfm .raw) {
+  color: #aaa;
+}
+
+:global(.psh .markdown .paragraph) {
+  color: #999;
+}
+
+:global(.psh .markdown .heading) {
+  color: silver;
+}
+
+:global(.psh .markdown .raw) {
+  color: #aaa;
+}
+
+:global(.psh .markdown .link) {
+  color: #555;
+}
+
+:global(.psh .markdown .link .string) {
+  color: #555;
+}
+
+:global(.psh .markdown .link .string.title) {
+  color: #dcdcdc;
 }

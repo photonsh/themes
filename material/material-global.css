@@ -633,51 +633,55 @@
   color: #89ddf3;
 }
 
-:global(.psh .js .constant) {
+:global(.psh .js.constant) {
   color: #eff;
 }
 
-:global(.psh .js .support.variable.property) {
+:global(.psh .js.support.variable.property) {
   color: #eff;
 }
 
-:global(.psh .js .support.variable.property.dom) {
+:global(.psh .js.support.variable.property.dom) {
   color: #82aaff;
 }
 
-:global(.psh .js .entity.name.type) {
+:global(.psh .js.entity.name.type) {
   color: #ffcb6b;
 }
 
-:global(.psh .js .variable.property) {
+:global(.psh .js.variable.property) {
   color: #82aaff;
 }
 
-:global(.psh .js .variable.other.object) {
+:global(.psh .js.variable.other.object) {
   color: #eff;
 }
 
-:global(.psh .js .variable.other.object.property) {
+:global(.psh .js.variable.other.object.property) {
   color: #82aaff;
 }
 
-:global(.psh .js .string.quoted.template .other.object.property) {
+:global(.psh .js.string.quoted.template .other.object.property) {
   color: #c3e88d;
 }
 
-:global(.psh .js .constant.numeric) {
+:global(.psh .js.constant.numeric) {
   color: #f78c6a;
 }
 
-:global(.psh .js .constant.boolean) {
+:global(.psh .js.constant.boolean) {
   color: #f07178;
 }
 
-:global(.psh .js .brace.curly), :global(.psh .js .delimiter.object.comma), :global(.psh .js .punctuation.begin), :global(.psh .js .punctuation.end) {
+:global(.psh .js.brace.curly), :global(.psh .js.delimiter.object.comma), :global(.psh .js.punctuation.begin), :global(.psh .js.punctuation.end) {
   color: #89ddf3;
 }
 
-:global(.psh .js .export .variable.default) {
+:global(.psh .comment .js.brace.curly), :global(.psh .comment .js.delimiter.object.comma), :global(.psh .comment .js.punctuation.begin), :global(.psh .comment .js.punctuation.end) {
+  color: #4f6875;
+}
+
+:global(.psh .js.export .variable.default) {
   color: #c792ea;
 }
 
@@ -715,15 +719,15 @@
   color: currentColor;
 }
 
-:global(.psh .php .keyword.operator.assignment) {
+:global(.psh .php.keyword.operator.assignment) {
   color: #c792ea;
 }
 
-:global(.psh .php .meta.object) {
+:global(.psh .php.meta.object) {
   color: #82aaff;
 }
 
-:global(.psh .php .meta.arguments) {
+:global(.psh .php.meta.arguments) {
   color: #c792ea;
 }
 
